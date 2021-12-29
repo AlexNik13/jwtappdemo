@@ -13,6 +13,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 
+/*
+* Получаем юзера с помощью реализации UserDetailsService
+* */
+
 @Service
 @Slf4j
 public class JwtUserDetailsService implements UserDetailsService {

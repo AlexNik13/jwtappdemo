@@ -15,7 +15,7 @@ public class JwtConfigurer extends SecurityConfigurerAdapter<DefaultSecurityFilt
     }
 
 
-// каждый запрос перед тем как передать дальше снсверу должен пройти JwtTokenFilter
+// каждый запрос перед тем как передать дальше сервесу должен пройти JwtTokenFilter
 // JwtTokenFilter - анализирует запрос, проверяет токен. Если токен валидный то мы работаем дальше.
     @Override
     public void configure (HttpSecurity httpSecurity) throws Exception{
